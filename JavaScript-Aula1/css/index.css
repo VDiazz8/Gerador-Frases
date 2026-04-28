@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgb(0, 0, 0) 1%,rgb(5, 5, 85) 50%, #000 100%);
+}
+h1{
+    float: left;
+    font-size: 7rem;
+    margin-top: 10vh;
+    margin-left: 12.5%;
+    color: #fff;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    color: #fff;
+}
+button{
+    font-size: 65px;
+    width: 30%;
+    height: 15vh;
+    float: left;
+    margin-left: 35%;
+    margin-top: 10vh;
+    background: #000;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
